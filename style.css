@@ -1,13 +1,21 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: transparent;
 }
 
  *, 
  input, 
  button {
    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .Everything{
+   display:flex;
+   justify-content: space-between;
+   flex-direction: column;
+   min-height: 100vh;
+   background-color: transparent;
  }
 
 
@@ -80,6 +88,8 @@
 /* Main */
 
 .content{
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -111,34 +121,34 @@
 /* Footer */
 
 .footer{
-  height: 40px;
   display: flex;
   max-width: 100%;
   justify-content: space-between;
   flex-direction: column;
   font-size: 15px;
+  margin-bottom: 0px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: #f0f0f0;
 }
 
 .footer__section--location{
- max-height: 40px;
  display: flex;
  max-width: 100%;
  justify-content: space-between;
  flex-direction: row;
- padding: 10px 10px 15px 0;
- background-color: #f0f0f0;
+ padding: 15px 15px 15px 30px;
+ border-bottom: 1px solid #d6d6d6;
  }
  .footer__section--down{
-  max-height: 40px;
   display: flex;
   max-width: 100%;
   justify-content: space-between;
   flex-direction: row;
   background-color: #f0f0f0;
+  padding: 10px 20px ;
   }
-  .footer__section--downleft{
+
+  .link{
+    padding: 15px 5px; 
+  }
   
-  }
-  .about{
-  padding: 10px 15px 0px 0px;
-  }
